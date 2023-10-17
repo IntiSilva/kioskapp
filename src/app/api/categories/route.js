@@ -8,5 +8,5 @@ export async function GET() {
           products: true,
         },
       });
-      return NextResponse.json(categories) //fijarse si va el return o no
+      return NextResponse.json(categories)
 }

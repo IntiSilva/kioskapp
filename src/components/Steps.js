@@ -33,7 +33,7 @@ const Steps = () => {
             onClick={() => {
               router.push(step.url);
             }}
-            className="text-2xl font-bold"
+            className="text-lg sm:text-2xl font-bold"
             key={step.step}
           >
             {step.name}
